@@ -1,0 +1,618 @@
+<!--LISTADO ETIQUETAS HTML.-->
+A continuación voy a indicarte cuales son las etiquetas HTML más usadas y
+también te indicaré su finalidad. Voy a centrarme en las principales etiquetas y
+sobre todo las que están soportadas en HTML 5. Ahí van:
+
+<!--ETIQUETAS INICIALES O DE RAÍZ-->
+<!DOCTYPE html> Indica al navegador que el documento está basado en el estándar
+HTML5
+
+<html></html>
+Representa la raíz de un documento HTML. Todos los demás elementos de la
+estructura HTML deben ser recogidos dentro de estas etiquetas.
+
+<!--METADATOS DEL DOCUMENTO-->
+<head> </head> Representa una colección de metadatos acerca del documento,
+incluyendo enlaces a, o definiciones de, scripts y hojas de estilo. El resto de
+etiquetas de metadatos, irán recogidas dentro de las etiquetas de apertura y
+cierre del head. Importante explicar que estos metadatos del documento, es
+información para el navegador y no contenido que será visible en la página web.
+A excepción de la etiqueta title que veremos a continuación.
+
+<!---->
+<title></title>Etiqueta usada para definir el título de la página web.
+<!---->
+<link /> Se usa para enlazar recursos externos al documento HTML. El ejemplo más
+común son las hojas de estilos CSS.
+<!---->
+<meta /> Etiqueta usada para definir otros metadatos que no se pueden definir
+con una etiqueta HTML especifica. Por ejemplo para definir el autor del sitio, o
+la descripción del mismo.
+<!---->
+<style></style> Etiquetas usadas para introducir código CSS en línea, es decir,
+en el propio documento HTML.
+
+<!--ETIQUETAS DE SECCIONES O PARA ESTRUCTURAR EL HTML-->
+<body></body>
+Al contrario que la etiqueta de metadatos (head), todo lo que quieras mostrar en
+la página web debe ir recogido dentro de las etiquetas de apertura y cierre de
+(body). Este contenido será el que se muestre en la web.
+
+<!---->
+<nav></nav>
+Usadas para definir el contenido que será la sección de navegación de la web.
+<!---->
+<main></main>
+Se usa para definir el contenido principal del documento. Solamente puede
+existir uno por documento.
+<!---->
+<section></section>
+Define una sección del documento
+<!---->
+<article></article>
+Define contenido independiente de la web.
+<!---->
+<aside></aside>
+Dentro de estas etiquetas suele alojarse el contenido adicional de la web. Suele
+ser contenido relacionado con la web pero de poca importancia
+<h1></h1>
+,
+<h2></h2>
+,
+<h3></h3>
+,
+<h4></h4>
+,
+<h5></h5>
+,
+<h6></h6>
+Son etiquetas HTML muy importantes, ya que son usadas para jerarquizar el
+contenido de la web. Las etiquetas se usan para explicar brevemente el contenido
+que irá a continuación.
+<!---->
+<header></header>
+Se usan para definir la cabecera la página web. Suele contener el logotipo, menú
+de navegación, etc.
+<!---->
+<footer></footer>
+Usadas para definir el pie de página.
+
+<!--ETIQUETAS PARA LA AGRUPACIÓN DE CONTENIDO -->
+<p></p>
+Etiqueta usada para escribir párrafos de texto.
+<hr />
+Etiqueta utilizada para “romper” entre dos secciones de una web. Usada
+comúnmente como separador.
+<pre></pre>
+Usada para pegar texto manteniendo el pre formato propio del texto.
+<blockquote></blockquote>
+Se usan para indicar que el contenido es texto citado.
+<ol></ol>
+Etiquetas para crear una lista ordenada
+<ul></ul>
+Etiquetas para crear una lista des-ordenada
+<li></li>
+Etiquetas que recogen el contenido de un elemento de una lista, sea ordenada o
+no.
+<dl></dl>
+Usada para crear una lista de definiciones.
+<dt></dt>
+Representa un término definido por la siguiente etiqueta
+<dd></dd>
+<dd></dd>
+Se usa para definir los términos listados antes que él.
+<figure></figure>
+Indica una figura ilustrada como parte del documento HTML5.
+<figcaption></figcaption>
+Utilizada para definir la leyenda de una figura.
+<div></div>
+Etiqueta común Define una sección en un documento
+
+<!--ETIQUETAS SEMÁNTICAS PARA TEXTO-->
+
+<a> </a> Etiqueta utilizada para crear hiperenlaces en el documento HTML
+<!---->
+<strong> </strong> Etiqueta para definir una palabra o conjunto de ellas como
+importantes. Tiene una fuerte importancia en el SEO de la página.
+<!---->
+<small> </small> Utilizada para dejar un comentario aparte, del tipo una nota de
+derechos de autoría, u otros textos que no son esenciales para la comprensión
+del documento.
+<!---->
+<cite> </cite> Para indicar el título de una obra.
+<!---->
+<sub> </sub> Etiquetas utilizadas para representar un subíndice o superíndice.
+<sup> </sup> Etiquetas utilizadas para representar un subíndice o superíndice.
+<!---->
+<mark> </mark> Usada para resaltar texto.
+<!---->
+<span> </span> Etiqueta HTML sin ningún significado específico. Se usa
+conjuntamente con los atributos “class” o “id” para atribuirle ciertas
+características.
+<!---->
+<br />
+Etiqueta utilizada para crear un salto de línea
+
+<!--ETIQUETAS PARA INCRUSTAR CONTENIDO -->
+<img /> Etiqueta para “pintar” una imagen en la página web.
+<!---->
+<iframe> </iframe> Es una etiqueta que sirve para anidar otro documento HTML
+dentro del documento principal.
+<!---->
+<embed /> Usada para integrar una aplicación o contenido interactivo externo que
+no suele ser HTML.
+<!---->
+<object></object> Utilizada llamar a un recurso externo de la web. Este recurso
+será tratado como una imagen, o un recurso externo para ser procesado por un
+plugin.
+<!---->
+<video></video> Se usa para reproducir video en la página web junto a sus
+archivos de audio y capciones asociadas.
+<!---->
+<audio></audio> Usada para cargar un archivo de audio o stream de audio.
+<!---->
+<source />
+Permite a autores especificar recursos multimedia alternativos para las
+etiquetas de video o audio.
+<!---->
+<svg></svg> Se usa para llamar a una imagen vectorizada.
+
+<!--ETIQUETAS PARA LA CREACIÓN DE TABLAS-->
+<table></table>
+Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla
+han de ir siempre recogidas entre estas dos etiquetas.
+<!---->
+<caption></caption>
+Usada para indicar el título de la tabla.
+<!---->
+<colgroup></colgroup>
+Etiqueta utilizada para agrupar dos o más columnas de una tabla.
+<!---->
+<tbody></tbody>
+Usada para describir los datos concretos de una tabla.
+<!---->
+<thead></thead>
+Indica el bloque de filas que describen las etiquetas de las columnas de la
+tabla.
+<!---->
+<tfoot></tfoot>
+Indica los bloques de filas que describen los resúmenes, o datos totales de una
+columna de una tabla.
+<!---->
+<tr></tr>
+Se usa para indicar una fila de celdas de una tabla.
+<!---->
+<td></td>
+Usada para definir una celda de una tabla.
+<!---->
+<th></th>
+Etiqueta que se usa para definir el encabezado de una celda
+
+<!--ETIQUETAS PARA LA CREACIÓN DE FORMULARIOS-->
+<form></form>
+Etiqueta de apertura y cierre de un formulario de una página web. El resto de
+etiquetas de formulario deben ir siempre recogidas entre estas etiquetas de
+apertura y cierre de formulario.
+<!---->
+<fieldset></fieldset>
+Etiqueta que representa un conjunto o agrupación de elementos de un formulario.
+“Pinta” un recuadro alrededor de las etiquetas que estén contenidas dentro del
+(fieldset)
+<!---->
+<legend></legend>
+Etiqueta ligada a (fieldset). Indica el título del (fieldset)
+<!---->
+<label> </label> Se usa para definir el nombre o título de un control del
+formulario.
+<!---->
+<input /> Pinta un campo de introducción de datos para el usuario. Es de las
+principales etiquetas de un formulario.
+<!---->
+<button></button> Etiqueta utilizada para representar un botón en el formulario.
+<!---->
+<select></select>
+Input que permite una selección entre un conjunto de opciones.
+<!---->
+<option></option>
+Etiqueta ligada a (select). Permite añadir diferentes opciones al (select)
+<!---->
+<textarea> </textarea> Añade un campo al usuario para que pueda introducir texto
+en unas líneas máximas de texto que el desarrollador puede definir.
+
+
+==============================================================
+ETIQUETAS POPULARES 
+
+<h1>Título principal de nuestro sitio web.</h1>
+<h2>Utilízala en los encabezados de secciones.</h2>
+<h3>Utilízala en sub-secciones.</h3>
+<h4>Utilízala en sub-sub-secciones. o como estimes conveniente</h4>
+<h5>Más de lo mismo...</h5>
+<h6>No existe el "<h7>" por lo tanto está es la última.</h6>
+
+
+==============================================================
+PARRAFO 
+
+<p>Tu primer párrafo.</p>
+
+==============================================================
+FORMATO
+
+https://www.w3schools.com/html/html_formatting.asp
+
+<b>Texto en negrita</b>
+<i>Texto en cursiva</i>
+<s>Texto tachado</s>
+<del>Texto eliminado</del>
+<ins>Texto insertado</ins>
+<sub>Texto de subíndice</sub>
+<sup>Texto en superíndice</sup>
+<small>Texto pequeño</small>
+<mark>Texto marcado</mark>
+
+<hr>
+
+<strong>Texto importante</strong>  
+<em>Texto enfatizado</em>
+
+<p>
+    Este es un párrafo <b>que contiene texto en negritas</b> y además
+    de <i>un texto en cursivas</i> y como no
+    un <b><s>Un texto tachado y en negritas.</s></b>
+</p>
+
+
+==============================================================
+LISTA E INDICES 
+
+<ul>
+   <li>Elemento 1</li>
+   <li>Elemento 2</li>
+   <li>Elemento 3</li>
+   <li>Elemento 4</li>
+</ul>
+
+
+Más conocida como lista ordenada
+
+<ol>
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+  ...
+  <li>Elemento N</li>
+</ol>
+
+==============================================================
+Comentarios: Son ayudas para documentar nuestro código.
+
+<!-- Este es un comentario -->
+<!-- Esta etiqueta centra nuestro contenido
+Se utilizaba en la versión 4
+<center></center>
+Maravilloso -->
+
+==============================================================
+Anclas o Hipervínculos 
+
+<a href="https://youtube.com/bluuweb">Ir a página de Google</a>
+
+==============================================================
+Imágenes
+
+<!-- Sin etiqueta de cierre, ¿qué curioso no? 
+TIP
+
+<img> no lleva cierre, esto pasa porque su contenido está en el atributo src, por lo tanto NO todas las etiquetas HTML necesitan un cierre.-->
+
+<img src="https://mdn.mozillademos.org/files/11913/htmlexp.png">
+
+==============================================================
+Divisiones
+
+<!-- Dividimos el sitio web en secciones -->
+<div>
+    <a href="https://google.com">Google</a>
+</div>
+<div>
+    <img src="https://mdn.mozillademos.org/files/11913/htmlexp.png">
+</div>
+
+==============================================================
+Práctica
+
+<!-- este es el título de mi sitio web -->
+<h1>Mi magnífica primera página web</h1>
+<hr>
+<!-- aquí está la imagen -->
+<img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="">
+<br>
+<!-- aquí la descripción -->
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem doloremque corporis facere error et quasi minima iure animi id, nulla iste aliquam tenetur sequi natus nemo rerum magni assumenda.</p>
+<!-- aquí un enlace con un botón -->
+<a href="https://www.youtube.com/bluuweb">
+    <button>¿Dame un like?</button>
+</a>
+
+==============================================================
+Imágenes
+
+https://developer.mozilla.org/es/docs/Web/HTML/Elemento/img(opens new window)
+
+<img src="mdn-logo-sm.png" alt="MDN">
+
+==============================================================
+Atributos
+
+
+alt Este atributo define el texto alternativo que describe la imagen. Los usuarios lo verán; si la URL de la imagen es errónea, la imagen tiene un formato no soportado, o si la imagen aun no se ha descargado.
+src La URL de la imagen. Este atributo es obligatorio.
+#Formatos de imagen soportada
+JPEG
+GIF, including animated GIFs
+PNG
+APNG
+SVG
+BMP
+BMP ICO
+PNG ICO
+#Variantes
+
+==============================================================
+Etiquetas semánticas
+
+Actualmente HTML tiene etiquetas que ayudan a organizar nuestro código, además genera un pequeño beneficio en el SEO.
+
+
+nav (opens new window): El elemento HTML <nav> representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos. Ejemplos comunes de secciones de navegación son menús, tablas de contenido e índices.
+
+header (opens new window): El elemento de HTML Header <header> representa un grupo de ayudas introductorias o de navegación. Puede contener algunos elementos de encabezado, así como también un logo, un formulario de búsqueda, un nombre de autor y otros componentes.
+
+footer (opens new window): Un pie de página típicamente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados.
+
+aside (opens new window): El elemento HTML <aside> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados.
+
+main (opens new window): El elemento HTML <main> representa el contenido principal del <body> de un documento o aplicación. Este contenido debe ser único al documento.
+
+article (opens new window): Contenido. ejemplos (opens new window): Es un contenedor de bloques de contenido que se consideran independientes del sitio web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por separado, como por ejemplo, en la sindicación. Puedes encontrar habitualmente a este elemento encerrando artículos, entradas de blogs o mensajes de un foro.
+
+section (opens new window)El elemento de HTML section <section> representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. ejemplos
+
+==============================================================
+Link útiles
+
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf(opens new window)
+https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf(opens new window)
+https://www.w3schools.com/html/default.asp(opens new window)
+https://es.wikipedia.org/wiki/UTF-8(opens new window)
+🔥 https://unicode-table.com/es/
+
+==============================================================
+Atajos populares
+
+ctrl + s Guardar
+ctrl + c Copiar
+ctrl + v Pegar
+ctrl + x Cortar
+ctrl + f Buscar
+ctrl + a Seleccionar todo
+ctrl + w Cerrar documento actual
+ctrl + o Abrir documento
+ctrl + p Buscar documento
+ctrl + d Seleccionar elementos iguales
+ctrl + n Nuevo documento
+alt + ⭥ Mover elemento
+
+==============================================================
+HTML Intermedio
+
+Conozcamos cosas más avanzadas de HTML
+
+#Tablas
+<table border='1'>
+    <tr>
+        <td>Gato</td>
+        <td>3 años</td>
+        <td>Negro</td>
+    </tr>
+    <tr>
+        <td>Perro</td>
+        <td>1 mes</td>
+        <td>Azul</td>
+    </tr>
+</table>
+<table></table> Comienzo y final de una tabla.
+<tr></tr> Comienzo y final de una fila.
+<td></td> Contenido de una celda.
+<table border='1'>
+    <tr>
+        <th>Mascota</th>
+        <th>Edad</th>
+        <th>Color</th>
+    </tr>
+    <tr>
+        <td>Gato</td>
+        <td>3 años</td>
+        <td>Negro</td>
+    </tr>
+    <tr>
+        <td>Perro</td>
+        <td>1 mes</td>
+        <td>Azul</td>
+    </tr>
+</table>
+<th>Mascota</th> Define la fila de encabezado
+<table border='1'>
+    <!-- Título de la tabla -->
+    <caption>Titulo de la tabla</caption>
+    <tr>
+        <th>Mascota</th>
+        <th>Edad</th>
+        <th>Color</th>
+    </tr>
+    ...
+
+==============================================================
+#Estructurar en partes tablas grandes
+
+<table border='1'>
+    <caption>Titulo de la tabla</caption>
+    <!-- Encabezado -->
+    <thead>
+        <tr>
+            <th>Mascota</th>
+            <th>Edad</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <!-- Pie de tabla -->
+    <tfoot>
+        <tr>
+            <th>Mascota</th>
+            <th>Edad</th>
+            <th>Color</th>
+        </tr>
+    </tfoot>
+    <!-- contenido -->
+    <tbody>
+        <tr>
+            <td>Gato</td>
+            <td>3 años</td>
+            <td>Negro</td>
+        </tr>
+        <tr>
+            <td>Perro</td>
+            <td>1 mes</td>
+            <td>Azul</td>
+        </tr>
+    </tbody>
+</table>
+==============================================================
+#Combinar
+
+<table border='1'>
+    <thead>
+        <tr>
+            <th>Mascota</th>
+            <th>Edad</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gato</td>
+            <td>3 años</td>
+            <td>Negro</td>
+        </tr>
+        <tr>
+            <td>Perro</td>
+            <td>1 mes</td>
+            <td>Azul</td>
+        </tr>
+        <tr>
+            <td>Rana</td>
+            <td colspan="2">Desconocido</td>
+        </tr>
+    </tbody>
+</table>
+<table border='1'>
+    <thead>
+        <tr>
+            <th>Mascota</th>
+            <th>Edad</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gato</td>
+            <td>3 años</td>
+            <td>Negro</td>
+        </tr>
+        <tr>
+            <td>Perro</td>
+            <td>1 mes</td>
+            <td rowspan="2">Azul</td>
+        </tr>
+        <tr>
+            <td>Rana</td>
+            <td>2 semanas</td>
+        </tr>
+    </tbody>
+</table>
+==============================================================
+#Formularios
+
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form (opens new window)Los formularios web son uno de los principales puntos de interacción entre un usuario y un sitio web o aplicación. Los formularios permiten a los usuarios ingresar datos, que generalmente se envían a un servidor web para su procesamiento y almacenamiento.
+
+==============================================================
+#form
+
+Define el contenedor para el formulario. Admite algunos atributos específicos para configurar la forma en que se comporta el formulario. Todos sus atributos son opcionales, pero es una práctica estándar establecer siempre al menos los atributos action y method:
+
+<form action="" method="">
+
+</form>
+
+==============================================================
+#input
+
+Aquí es donde nuestro usuario puede ingresar datos. Contamos con varios atributos:
+
+type dato que recibirá el input.
+placeholder texto de ayuda para el usuario.
+id identificador único.
+name nombre del input, nos sire para asociar información al dato ingresado por ejemplo:
+curso = "texto proporcionado por el usuario"
+<input id="curso" type="text" placeholder="Ingrese un curso" name="curso">
+
+==============================================================
+#label
+
+Texto adicional que describe al input es por esto que cuenta con el atributo for donde ingresamos el id del input.
+
+<label for="curso">Curso: </label>
+
+==============================================================
+#button
+
+Es un botón para procesar nuestro formulario es por esto que cuenta con el atributo submit
+
+<button type="submit">Enviar</button>
+
+==============================================================
+#Formulario completo
+
+<form action="recibir.html" method="GET">
+    <label for="curso">Curso: </label>
+    <input id="curso" type="text" placeholder="Ingrese un curso" name="curso">
+    <button type="submit">Enviar</button>
+</form>
+#Input
+Existen diferentes tipos de input https://www.w3schools.com/tags/tag_input.asp(opens new window)
+
+<form action="recibir.html" method="GET">
+    <input type="email" required>
+    <button type="submit">Enviar</button>
+</form>
+<input type="password">
+<textarea name="mensaje" rows="10" cols="30">
+Ingrese aquí su mensaje
+</textarea>
+<form>
+    <input type="radio" id="gato" name="gender" value="gato">
+    <label for="gato">Gato</label>
+    <input type="radio" id="perro" name="gender" value="perro">
+    <label for="perro">Perro</label>
+    <input type="radio" id="otro" name="gender" value="otro">
+    <label for="otros">Otro</label>
+</form>
+<input type="button" value="Enviar">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="file">
+<input type="month">
+<input type="range">
+<input type="time">
+<input type="week">
